@@ -1,6 +1,5 @@
 import json
 from pathlib import Path
-from urllib.parse import quote
 
 import streamlit as st
 
@@ -173,8 +172,17 @@ def target_matches(target, query):
     return any(query in item.lower() for item in haystack)
 
 
-def report_link(label, param_name, slug):
-    st.markdown(f"[{label}](?{param_name}={quote(slug)})")
+def navigate_to_report(param_name, slug):
+    other_param = "target" if param_name == "ingredient" else "ingredient"
+    if other_param in st.query_params:
+        del st.query_params[other_param]
+    st.query_params[param_name] = slug
+    st.rerun()
+
+
+def report_button(label, param_name, slug, key):
+    if st.button(label, key=key, use_container_width=True):
+        navigate_to_report(param_name, slug)
 
 
 def render_ingredient_report(ingredient, claims):
@@ -206,6 +214,16 @@ def render_search(data):
 
     if not normalized:
         st.info("建议从“褪黑素”“鱼油”“睡眠”“血脂”开始。")
+        st.markdown("#### 热门成分")
+        for item in [
+            ("褪黑素", "melatonin"),
+            ("鱼油 / Omega-3", "omega-3"),
+            ("镁", "magnesium"),
+            ("肌酸", "creatine"),
+            ("胶原蛋白肽", "collagen-peptides"),
+            ("NMN", "nmn"),
+        ]:
+            report_button(item[0], "ingredient", item[1], f"home-ingredient-{item[1]}")
         return
 
     ingredient_results = [item for item in data["ingredients"] if ingredient_matches(item, normalized)]
@@ -221,7 +239,7 @@ def render_search(data):
             with st.container(border=True):
                 st.markdown(f"**{item['name_cn']}**")
                 st.caption(f"{item.get('name_en') or ''} · {item.get('category') or ''}")
-                report_link("查看报告", "ingredient", item["slug"])
+                report_button("查看报告", "ingredient", item["slug"], f"search-ingredient-{item['slug']}")
 
     if target_results:
         st.subheader("健康方向")
@@ -229,7 +247,7 @@ def render_search(data):
             with st.container(border=True):
                 st.markdown(f"**{item['name']}**")
                 st.caption(item.get("compliant_name") or "")
-                report_link("查看相关成分", "target", item["slug"])
+                report_button("查看相关成分", "target", item["slug"], f"search-target-{item['slug']}")
 
 
 def main():
@@ -237,7 +255,7 @@ def main():
         page_title="营养品证据查询",
         page_icon="N",
         layout="wide",
-        initial_sidebar_state="expanded",
+        initial_sidebar_state="collapsed",
     )
 
     data, ingredients_by_slug, targets_by_slug, claims_by_ingredient, claims_by_target = load_data()
@@ -255,7 +273,7 @@ def main():
             ("胶原蛋白肽", "collagen-peptides"),
             ("NMN", "nmn"),
         ]:
-            report_link(label, "ingredient", slug)
+            report_button(label, "ingredient", slug, f"sidebar-ingredient-{slug}")
         st.divider()
         st.caption("当前为只读体验版。草稿结论用于产品验证，正式发布前需要完成人工文献复核。")
         st.caption(f"数据导出时间：{data['metadata'].get('generated_at')}")
