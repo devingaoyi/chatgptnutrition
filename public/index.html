@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>营养品证据查询</title>
+    <meta
+      name="description"
+      content="查询营养成分对应健康方向的证据强度、可行性、剂量范围和安全风险。"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="/" aria-label="返回首页">
+          <span class="brand-mark">N</span>
+          <span>
+            <strong>营养品证据查询</strong>
+            <small>证据强度 · 可行性 · 安全风险</small>
+          </span>
+        </a>
+        <button class="icon-button" id="shareButton" type="button" title="复制分享链接" aria-label="复制分享链接">
+          <span aria-hidden="true">↗</span>
+        </button>
+      </header>
+
+      <main>
+        <section class="search-band" aria-labelledby="searchTitle">
+          <div class="search-copy">
+            <h1 id="searchTitle">查营养品有没有证据支持</h1>
+            <p>输入成分、健康方向或商品名，查看证据强度、研究剂量和安全边界。</p>
+          </div>
+
+          <form class="search-form" id="searchForm" role="search">
+            <label class="sr-only" for="searchInput">搜索</label>
+            <input
+              id="searchInput"
+              name="q"
+              type="search"
+              autocomplete="off"
+              placeholder="例如：褪黑素、睡眠、鱼油、血脂"
+              maxlength="128"
+            />
+            <button type="submit">搜索</button>
+          </form>
+
+          <div class="quick-grid" aria-label="常用健康方向">
+            <button type="button" data-target="sleep">睡眠</button>
+            <button type="button" data-target="blood-lipids">血脂</button>
+            <button type="button" data-target="blood-glucose">血糖</button>
+            <button type="button" data-target="gut-health">肠道</button>
+            <button type="button" data-target="joint-bone">关节/骨骼</button>
+            <button type="button" data-target="weight-management">体重管理</button>
+          </div>
+        </section>
+
+        <section class="status-strip" aria-label="当前数据状态">
+          <div>
+            <strong>30</strong>
+            <span>首批成分</span>
+          </div>
+          <div>
+            <strong>12</strong>
+            <span>健康方向</span>
+          </div>
+          <div>
+            <strong>草稿</strong>
+            <span>需人工复核</span>
+          </div>
+        </section>
+
+        <section class="layout">
+          <aside class="side-panel" aria-label="结果筛选">
+            <div class="panel-title">热门成分</div>
+            <div class="link-list">
+              <button type="button" data-ingredient="melatonin">褪黑素</button>
+              <button type="button" data-ingredient="omega-3">鱼油 / Omega-3</button>
+              <button type="button" data-ingredient="magnesium">镁</button>
+              <button type="button" data-ingredient="creatine">肌酸</button>
+              <button type="button" data-ingredient="collagen-peptides">胶原蛋白肽</button>
+              <button type="button" data-ingredient="nmn">NMN</button>
+            </div>
+            <div class="notice">
+              当前为体验版。页面中的草稿结论用于产品验证，正式发布前需要完成文献审核。
+            </div>
+          </aside>
+
+          <section class="content-panel" id="content" aria-live="polite">
+            <div class="empty-state">
+              <div class="evidence-visual" aria-hidden="true">
+                <span style="--h: 42%"></span>
+                <span style="--h: 70%"></span>
+                <span style="--h: 54%"></span>
+                <span style="--h: 88%"></span>
+              </div>
+              <h2>先输入一个查询对象</h2>
+              <p>建议从“褪黑素”“鱼油”“睡眠”“血脂”开始。</p>
+            </div>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

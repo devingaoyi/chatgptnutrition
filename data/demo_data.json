@@ -1,0 +1,2159 @@
+{
+  "metadata": {
+    "generated_at": "2026-06-30T05:48:19.999Z",
+    "source": "chatgptnutrition_dev",
+    "note": "Read-only Streamlit demo data. Draft claims require expert review before publication."
+  },
+  "ingredients": [
+    {
+      "id": "dcd8d1d2-dfc0-4c5f-a1d9-bd9ea13dcb7e",
+      "slug": "gaba",
+      "name_cn": "GABA",
+      "name_en": "Gamma-aminobutyric acid",
+      "category": "功能性成分",
+      "common_forms": [
+        "γ-氨基丁酸"
+      ],
+      "summary": "用于睡眠和压力相关宣传，人体证据仍有限。",
+      "safety_note": "合并镇静类药物者需谨慎。",
+      "aliases": [
+        {
+          "alias": "GABA",
+          "language": "en",
+          "priority": 100
+        },
+        {
+          "alias": "γ-氨基丁酸",
+          "language": "zh",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "607622a0-2f6e-456b-9230-092f0702d848",
+      "slug": "l-theanine",
+      "name_cn": "L-茶氨酸",
+      "name_en": "L-theanine",
+      "category": "氨基酸衍生物",
+      "common_forms": [
+        "茶氨酸"
+      ],
+      "summary": "茶叶中的氨基酸成分，常用于压力、专注和睡眠质量相关研究。",
+      "safety_note": "总体风险较低，合并镇静药物者仍需谨慎。",
+      "aliases": [
+        {
+          "alias": "L-茶氨酸",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "茶氨酸",
+          "language": "zh",
+          "priority": 100
+        }
+      ]
+    },
+    {
+      "id": "faa64805-ff80-4409-8cb5-c0222a0da873",
+      "slug": "nmn",
+      "name_cn": "NMN",
+      "name_en": "Nicotinamide mononucleotide",
+      "category": "功能性成分",
+      "common_forms": [
+        "β-NMN",
+        "烟酰胺单核苷酸"
+      ],
+      "summary": "市场热度高，人体长期结局证据仍有限。",
+      "safety_note": "长期安全性和特殊人群资料不足。",
+      "aliases": [
+        {
+          "alias": "NMN",
+          "language": "en",
+          "priority": 100
+        },
+        {
+          "alias": "烟酰胺单核苷酸",
+          "language": "zh",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "f3a7b66c-c51c-4002-83ea-2fd8c5bf2815",
+      "slug": "omega-3",
+      "name_cn": "Omega-3 / 鱼油 / EPA+DHA",
+      "name_en": "Omega-3 fatty acids",
+      "category": "脂肪酸",
+      "common_forms": [
+        "鱼油",
+        "EPA",
+        "DHA",
+        "藻油"
+      ],
+      "summary": "常见长链 Omega-3 脂肪酸，主要用于血脂相关指标和特定心血管问题的证据讨论。",
+      "safety_note": "抗凝药使用者、术前人群和高剂量使用者需要谨慎。",
+      "aliases": [
+        {
+          "alias": "鱼油",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "DHA",
+          "language": "en",
+          "priority": 90
+        },
+        {
+          "alias": "EPA",
+          "language": "en",
+          "priority": 90
+        },
+        {
+          "alias": "Omega 3",
+          "language": "en",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "fce171ac-b433-4700-8025-2cbcf5c56067",
+      "slug": "alpha-lipoic-acid",
+      "name_cn": "α-硫辛酸",
+      "name_en": "Alpha-lipoic acid",
+      "category": "抗氧化成分",
+      "common_forms": [
+        "硫辛酸",
+        "ALA",
+        "R-硫辛酸"
+      ],
+      "summary": "常用于糖代谢和神经症状相关研究，合规表达需谨慎。",
+      "safety_note": "可能影响血糖，使用降糖药者需谨慎。",
+      "aliases": [
+        {
+          "alias": "α硫辛酸",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "硫辛酸",
+          "language": "zh",
+          "priority": 90
+        },
+        {
+          "alias": "ALA",
+          "language": "en",
+          "priority": 80
+        }
+      ]
+    },
+    {
+      "id": "e17ba420-e8ef-42ce-b434-4ddaffa61942",
+      "slug": "beta-glucan",
+      "name_cn": "β-葡聚糖",
+      "name_en": "Beta-glucan",
+      "category": "膳食纤维",
+      "common_forms": [
+        "燕麦β-葡聚糖",
+        "大麦β-葡聚糖"
+      ],
+      "summary": "来自燕麦或大麦的可溶性纤维，常用于 LDL-C 相关指标。",
+      "safety_note": "总体风险较低，胃肠不适较常见。",
+      "aliases": [
+        {
+          "alias": "β葡聚糖",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "燕麦β葡聚糖",
+          "language": "zh",
+          "priority": 90
+        },
+        {
+          "alias": "Beta glucan",
+          "language": "en",
+          "priority": 80
+        }
+      ]
+    },
+    {
+      "id": "8dc61c36-d1f9-4804-b020-90f4fdbc9d5a",
+      "slug": "psyllium-husk",
+      "name_cn": "车前子壳",
+      "name_en": "Psyllium husk",
+      "category": "膳食纤维",
+      "common_forms": [
+        "洋车前子壳",
+        "车前子膳食纤维"
+      ],
+      "summary": "可溶性膳食纤维，与 LDL-C、排便和餐后血糖相关证据较多。",
+      "safety_note": "需足量饮水；吞咽困难或肠梗阻风险人群不宜使用。",
+      "aliases": [
+        {
+          "alias": "车前子壳",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "洋车前子",
+          "language": "zh",
+          "priority": 90
+        },
+        {
+          "alias": "Psyllium",
+          "language": "en",
+          "priority": 80
+        }
+      ]
+    },
+    {
+      "id": "0fc20d6d-dd6b-445e-b49f-90b39670d988",
+      "slug": "coq10",
+      "name_cn": "辅酶Q10",
+      "name_en": "Coenzyme Q10",
+      "category": "辅酶",
+      "common_forms": [
+        "泛醌",
+        "泛醇",
+        "CoQ10"
+      ],
+      "summary": "参与线粒体能量代谢，常见于心血管和疲劳相关产品。",
+      "safety_note": "华法林等抗凝药使用者需谨慎。",
+      "aliases": [
+        {
+          "alias": "辅酶Q10",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "CoQ10",
+          "language": "en",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "3d413adc-0d83-4604-b2e6-0a6a7fa2d326",
+      "slug": "calcium",
+      "name_cn": "钙",
+      "name_en": "Calcium",
+      "category": "矿物质",
+      "common_forms": [
+        "碳酸钙",
+        "柠檬酸钙",
+        "乳钙"
+      ],
+      "summary": "骨骼健康基础营养素，效果取决于基础摄入和维生素D状态。",
+      "safety_note": "肾结石、高钙血症或肾病人群需谨慎。",
+      "aliases": [
+        {
+          "alias": "钙",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "柠檬酸钙",
+          "language": "zh",
+          "priority": 90
+        },
+        {
+          "alias": "碳酸钙",
+          "language": "zh",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "92c6bd60-8a64-4db0-8b06-b5a353d83061",
+      "slug": "creatine",
+      "name_cn": "肌酸",
+      "name_en": "Creatine",
+      "category": "运动营养",
+      "common_forms": [
+        "一水肌酸",
+        "肌酸盐酸盐"
+      ],
+      "summary": "运动营养中证据较充分的成分，主要用于力量和高强度运动表现。",
+      "safety_note": "肾病患者不宜自行使用；普通健康成人按研究剂量使用通常风险较低。",
+      "aliases": [
+        {
+          "alias": "肌酸",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "一水肌酸",
+          "language": "zh",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "e179de23-01d8-4ab3-ab4d-6bf78f982810",
+      "slug": "curcumin",
+      "name_cn": "姜黄素",
+      "name_en": "Curcumin",
+      "category": "植物提取物",
+      "common_forms": [
+        "姜黄提取物",
+        "高吸收姜黄素",
+        "姜黄素磷脂复合物"
+      ],
+      "summary": "植物多酚类成分，生物利用度和剂型对研究解释影响较大。",
+      "safety_note": "胆囊疾病、抗凝药使用者和术前人群需谨慎。",
+      "aliases": [
+        {
+          "alias": "姜黄素",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "姜黄提取物",
+          "language": "zh",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "e3e6115b-415e-4f69-ac57-728b076fd769",
+      "slug": "collagen-peptides",
+      "name_cn": "胶原蛋白肽",
+      "name_en": "Collagen peptides",
+      "category": "蛋白肽",
+      "common_forms": [
+        "水解胶原蛋白",
+        "胶原肽"
+      ],
+      "summary": "常用于皮肤弹性、含水量和关节舒适度相关研究。",
+      "safety_note": "总体风险较低，但产品质量和蛋白来源需关注。",
+      "aliases": [
+        {
+          "alias": "胶原蛋白",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "胶原蛋白肽",
+          "language": "zh",
+          "priority": 100
+        }
+      ]
+    },
+    {
+      "id": "1104257b-086b-4321-ab66-9fc7f628169f",
+      "slug": "green-tea-extract-egcg",
+      "name_cn": "绿茶提取物 / EGCG",
+      "name_en": "Green tea extract / EGCG",
+      "category": "植物提取物",
+      "common_forms": [
+        "EGCG",
+        "儿茶素",
+        "绿茶儿茶素"
+      ],
+      "summary": "常用于体重管理和抗氧化宣传，剂量与安全性边界重要。",
+      "safety_note": "高剂量提取物存在肝损伤风险提示。",
+      "aliases": [
+        {
+          "alias": "绿茶提取物",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "EGCG",
+          "language": "en",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "25b7163d-1eb0-4383-a3b6-1bf6f2d5eafc",
+      "slug": "magnesium",
+      "name_cn": "镁",
+      "name_en": "Magnesium",
+      "category": "矿物质",
+      "common_forms": [
+        "甘氨酸镁",
+        "柠檬酸镁",
+        "氧化镁",
+        "苏糖酸镁"
+      ],
+      "summary": "必需矿物质，涉及神经肌肉、能量代谢和部分睡眠相关研究。",
+      "safety_note": "肾功能异常者不宜自行高剂量补充。",
+      "aliases": [
+        {
+          "alias": "甘氨酸镁",
+          "language": "zh",
+          "priority": 90
+        },
+        {
+          "alias": "柠檬酸镁",
+          "language": "zh",
+          "priority": 90
+        },
+        {
+          "alias": "Magnesium",
+          "language": "en",
+          "priority": 80
+        }
+      ]
+    },
+    {
+      "id": "f7b9281a-8365-49b4-bb10-f815e87a1209",
+      "slug": "glucosamine",
+      "name_cn": "葡萄糖胺",
+      "name_en": "Glucosamine",
+      "category": "关节营养",
+      "common_forms": [
+        "氨糖",
+        "硫酸氨基葡萄糖",
+        "盐酸氨基葡萄糖"
+      ],
+      "summary": "常用于关节不适和骨关节相关研究，结论存在争议。",
+      "safety_note": "甲壳类过敏、抗凝药使用者和糖代谢异常人群需谨慎。",
+      "aliases": [
+        {
+          "alias": "氨糖",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "葡萄糖胺",
+          "language": "zh",
+          "priority": 100
+        }
+      ]
+    },
+    {
+      "id": "c943f7eb-bb42-42ff-9420-953138a73ae1",
+      "slug": "whey-protein",
+      "name_cn": "乳清蛋白",
+      "name_en": "Whey protein",
+      "category": "蛋白质",
+      "common_forms": [
+        "乳清蛋白粉",
+        "分离乳清",
+        "浓缩乳清"
+      ],
+      "summary": "高质量蛋白来源，常用于运动营养、肌肉维持和蛋白摄入不足场景。",
+      "safety_note": "乳制品过敏、严重肾病或需限制蛋白者需谨慎。",
+      "aliases": [
+        {
+          "alias": "乳清蛋白",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "乳清蛋白粉",
+          "language": "zh",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "7961a22a-65d6-48d8-8f35-49add221a67a",
+      "slug": "chondroitin",
+      "name_cn": "软骨素",
+      "name_en": "Chondroitin",
+      "category": "关节营养",
+      "common_forms": [
+        "硫酸软骨素"
+      ],
+      "summary": "常与葡萄糖胺复配，用于关节相关研究。",
+      "safety_note": "抗凝药使用者需谨慎。",
+      "aliases": [
+        {
+          "alias": "软骨素",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "硫酸软骨素",
+          "language": "zh",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "db6b1cc6-90f7-42f9-b8a9-41f4cf58fe27",
+      "slug": "iron",
+      "name_cn": "铁",
+      "name_en": "Iron",
+      "category": "矿物质",
+      "common_forms": [
+        "硫酸亚铁",
+        "富马酸亚铁",
+        "甘氨酸亚铁"
+      ],
+      "summary": "缺铁和缺铁性贫血相关证据明确，但不适合无缺乏证据的人群随意补充。",
+      "safety_note": "过量风险较高，儿童误服、铁过载和部分慢病人群需严格限制。",
+      "aliases": [
+        {
+          "alias": "铁",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "补铁",
+          "language": "zh",
+          "priority": 80
+        }
+      ]
+    },
+    {
+      "id": "e9660a45-969a-4ced-972a-bcfc0d366333",
+      "slug": "melatonin",
+      "name_cn": "褪黑素",
+      "name_en": "Melatonin",
+      "category": "功能性成分",
+      "common_forms": [
+        "褪黑素片",
+        "褪黑素软糖",
+        "缓释褪黑素"
+      ],
+      "summary": "与昼夜节律相关的激素类补充剂，主要用于入睡时间和时差相关场景。",
+      "safety_note": "儿童、孕哺期、精神疾病或合并镇静药物者需谨慎。",
+      "aliases": [
+        {
+          "alias": "褪黑素",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "Melatonin",
+          "language": "en",
+          "priority": 80
+        }
+      ]
+    },
+    {
+      "id": "da8f5849-a96e-4544-8d7e-9e1c0638352b",
+      "slug": "vitamin-b12",
+      "name_cn": "维生素B12",
+      "name_en": "Vitamin B12",
+      "category": "维生素",
+      "common_forms": [
+        "钴胺素",
+        "甲钴胺",
+        "氰钴胺"
+      ],
+      "summary": "与缺乏纠正、素食人群和部分贫血/神经症状相关。",
+      "safety_note": "总体风险较低，但症状性缺乏需医学评估。",
+      "aliases": [
+        {
+          "alias": "维生素B12",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "B12",
+          "language": "zh",
+          "priority": 80
+        }
+      ]
+    },
+    {
+      "id": "e409d184-9a7a-4f68-a553-61383f298a7e",
+      "slug": "vitamin-c",
+      "name_cn": "维生素C",
+      "name_en": "Vitamin C",
+      "category": "维生素",
+      "common_forms": [
+        "抗坏血酸",
+        "酯化维生素C"
+      ],
+      "summary": "水溶性维生素，缺乏纠正证据明确，普通免疫宣传需分场景。",
+      "safety_note": "高剂量可能增加胃肠不适和部分人群结石风险。",
+      "aliases": [
+        {
+          "alias": "维生素C",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "VC",
+          "language": "zh",
+          "priority": 80
+        }
+      ]
+    },
+    {
+      "id": "b8f1360e-45de-4875-b209-b4cb9a1c9e7a",
+      "slug": "vitamin-d",
+      "name_cn": "维生素D",
+      "name_en": "Vitamin D",
+      "category": "维生素",
+      "common_forms": [
+        "维生素D3",
+        "胆钙化醇",
+        "维生素D2"
+      ],
+      "summary": "脂溶性维生素，与钙磷代谢、骨骼健康和缺乏纠正密切相关。",
+      "safety_note": "过量可能导致高钙血症，肾病或高钙风险人群需谨慎。",
+      "aliases": [
+        {
+          "alias": "维D",
+          "language": "zh",
+          "priority": 90
+        },
+        {
+          "alias": "VD",
+          "language": "zh",
+          "priority": 80
+        },
+        {
+          "alias": "Vitamin D3",
+          "language": "en",
+          "priority": 80
+        }
+      ]
+    },
+    {
+      "id": "ed3fd277-7819-4a49-9494-62f16c0a7d1b",
+      "slug": "vitamin-k2",
+      "name_cn": "维生素K2",
+      "name_en": "Vitamin K2",
+      "category": "维生素",
+      "common_forms": [
+        "MK-7",
+        "MK-4"
+      ],
+      "summary": "常用于骨骼和血管钙化相关宣传，但人体硬终点证据需谨慎。",
+      "safety_note": "华法林使用者不宜自行补充。",
+      "aliases": [
+        {
+          "alias": "维生素K2",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "MK-7",
+          "language": "en",
+          "priority": 80
+        }
+      ]
+    },
+    {
+      "id": "3b7af648-d4f1-422d-b2cf-7d6404db02f7",
+      "slug": "zinc",
+      "name_cn": "锌",
+      "name_en": "Zinc",
+      "category": "矿物质",
+      "common_forms": [
+        "葡萄糖酸锌",
+        "吡啶甲酸锌",
+        "柠檬酸锌"
+      ],
+      "summary": "必需微量元素，与缺乏纠正、免疫和皮肤相关场景有关。",
+      "safety_note": "长期过量可能导致铜缺乏和胃肠反应。",
+      "aliases": [
+        {
+          "alias": "锌",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "葡萄糖酸锌",
+          "language": "zh",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "c02e0d15-a6b0-4040-842b-1eeb93dc92d1",
+      "slug": "lutein-zeaxanthin",
+      "name_cn": "叶黄素 / 玉米黄质",
+      "name_en": "Lutein and zeaxanthin",
+      "category": "类胡萝卜素",
+      "common_forms": [
+        "叶黄素酯",
+        "游离叶黄素",
+        "玉米黄质"
+      ],
+      "summary": "与黄斑色素和特定眼健康人群相关。",
+      "safety_note": "总体风险较低，不应替代眼科诊疗。",
+      "aliases": [
+        {
+          "alias": "叶黄素",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "玉米黄质",
+          "language": "zh",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "5aaa2dff-89bd-4e7a-8206-92fcbaefbc9a",
+      "slug": "folic-acid",
+      "name_cn": "叶酸",
+      "name_en": "Folic acid",
+      "category": "维生素",
+      "common_forms": [
+        "叶酸",
+        "5-MTHF",
+        "甲基叶酸"
+      ],
+      "summary": "孕前孕期神经管缺陷风险降低证据明确。",
+      "safety_note": "高剂量可能掩盖维生素B12缺乏表现。",
+      "aliases": [
+        {
+          "alias": "叶酸",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "甲基叶酸",
+          "language": "zh",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "79a13de3-0a56-40d4-b2d9-bf29130ffac5",
+      "slug": "probiotics",
+      "name_cn": "益生菌",
+      "name_en": "Probiotics",
+      "category": "微生态",
+      "common_forms": [
+        "乳酸菌",
+        "双歧杆菌",
+        "酵母菌"
+      ],
+      "summary": "活性微生物，作用高度依赖菌株、剂量和使用场景。",
+      "safety_note": "免疫严重低下、中心静脉置管或重症人群需谨慎。",
+      "aliases": [
+        {
+          "alias": "益生菌",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "Probiotic",
+          "language": "en",
+          "priority": 80
+        }
+      ]
+    },
+    {
+      "id": "d6581212-0497-4e8d-9e19-9f671193b57a",
+      "slug": "prebiotics",
+      "name_cn": "益生元 / 菊粉 / FOS",
+      "name_en": "Prebiotics",
+      "category": "膳食纤维",
+      "common_forms": [
+        "菊粉",
+        "低聚果糖",
+        "FOS",
+        "GOS"
+      ],
+      "summary": "可被肠道微生物利用的底物，常用于排便和肠道菌群相关讨论。",
+      "safety_note": "易胀气人群、肠易激综合征人群需从低剂量开始评估耐受。",
+      "aliases": [
+        {
+          "alias": "益生元",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "菊粉",
+          "language": "zh",
+          "priority": 90
+        },
+        {
+          "alias": "FOS",
+          "language": "en",
+          "priority": 80
+        }
+      ]
+    },
+    {
+      "id": "e7f5d4bd-fc72-4f3b-a6bd-8770a3709362",
+      "slug": "plant-sterols",
+      "name_cn": "植物甾醇",
+      "name_en": "Plant sterols",
+      "category": "脂质类成分",
+      "common_forms": [
+        "植物甾醇酯",
+        "植物固醇"
+      ],
+      "summary": "可影响肠道胆固醇吸收，主要用于 LDL-C 相关证据讨论。",
+      "safety_note": "不适合植物甾醇血症人群；不替代血脂异常医学管理。",
+      "aliases": [
+        {
+          "alias": "植物甾醇",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "植物固醇",
+          "language": "zh",
+          "priority": 90
+        }
+      ]
+    },
+    {
+      "id": "f30099e0-cab0-4882-a20a-05a64a341806",
+      "slug": "l-carnitine",
+      "name_cn": "左旋肉碱",
+      "name_en": "L-carnitine",
+      "category": "氨基酸衍生物",
+      "common_forms": [
+        "L-肉碱",
+        "乙酰左旋肉碱"
+      ],
+      "summary": "常用于体重管理宣传，但效果大小和适用人群需谨慎解释。",
+      "safety_note": "可能引起胃肠反应，癫痫史人群需谨慎。",
+      "aliases": [
+        {
+          "alias": "左旋肉碱",
+          "language": "zh",
+          "priority": 100
+        },
+        {
+          "alias": "L-肉碱",
+          "language": "zh",
+          "priority": 90
+        }
+      ]
+    }
+  ],
+  "health_targets": [
+    {
+      "id": "deb72ae4-5efa-4634-b5ec-a95aa3f3f44c",
+      "slug": "maternal-nutrition",
+      "name": "备孕/孕期营养",
+      "compliant_name": "备孕和孕期营养补充相关",
+      "description": "备孕、孕早期和特殊生命阶段营养补充相关证据。",
+      "risk_level": "high",
+      "aliases": [
+        {
+          "alias": "备孕",
+          "display_rewrite": "备孕营养补充相关",
+          "is_sensitive": false
+        },
+        {
+          "alias": "孕妇营养",
+          "display_rewrite": "孕期营养补充相关",
+          "is_sensitive": true
+        }
+      ]
+    },
+    {
+      "id": "d9f24eed-59e7-432c-906c-6ccb6689742c",
+      "slug": "gut-health",
+      "name": "肠道",
+      "compliant_name": "肠道健康相关",
+      "description": "排便、腹胀、肠道菌群和抗生素相关腹泻等场景。",
+      "risk_level": "medium",
+      "aliases": [
+        {
+          "alias": "便秘",
+          "display_rewrite": "排便和肠道健康相关",
+          "is_sensitive": true
+        },
+        {
+          "alias": "肠胃",
+          "display_rewrite": "肠道健康相关",
+          "is_sensitive": false
+        }
+      ]
+    },
+    {
+      "id": "ef31bff2-2081-4512-bb05-95168a0f545d",
+      "slug": "joint-bone",
+      "name": "关节/骨骼",
+      "compliant_name": "关节舒适度和骨骼健康相关",
+      "description": "骨密度、骨折风险、关节疼痛或关节舒适度相关证据。",
+      "risk_level": "medium",
+      "aliases": [
+        {
+          "alias": "骨质疏松",
+          "display_rewrite": "骨骼健康相关",
+          "is_sensitive": true
+        },
+        {
+          "alias": "关节痛",
+          "display_rewrite": "关节舒适度相关",
+          "is_sensitive": true
+        }
+      ]
+    },
+    {
+      "id": "ed833246-ff3f-4a09-b3a7-7902c8272dfb",
+      "slug": "immune-health",
+      "name": "免疫",
+      "compliant_name": "免疫功能相关",
+      "description": "缺乏纠正、感染持续时间或特定免疫指标相关证据。",
+      "risk_level": "medium",
+      "aliases": [
+        {
+          "alias": "提高免疫力",
+          "display_rewrite": "免疫功能相关",
+          "is_sensitive": true
+        }
+      ]
+    },
+    {
+      "id": "b495d27b-a00a-4432-9468-af432f04d3ca",
+      "slug": "skin-health",
+      "name": "皮肤",
+      "compliant_name": "皮肤健康相关",
+      "description": "皮肤含水量、弹性、皱纹指标和屏障功能相关证据。",
+      "risk_level": "low",
+      "aliases": [
+        {
+          "alias": "抗皱",
+          "display_rewrite": "皮肤健康相关",
+          "is_sensitive": false
+        },
+        {
+          "alias": "美白",
+          "display_rewrite": "皮肤健康相关",
+          "is_sensitive": true
+        }
+      ]
+    },
+    {
+      "id": "ed9d3411-c292-4d6b-b134-7cd1dddd637e",
+      "slug": "sleep",
+      "name": "睡眠",
+      "compliant_name": "睡眠质量相关",
+      "description": "入睡时间、睡眠质量和昼夜节律相关证据。",
+      "risk_level": "medium",
+      "aliases": [
+        {
+          "alias": "改善睡眠",
+          "display_rewrite": "睡眠质量相关",
+          "is_sensitive": false
+        },
+        {
+          "alias": "失眠",
+          "display_rewrite": "睡眠质量相关",
+          "is_sensitive": true
+        }
+      ]
+    },
+    {
+      "id": "71cbd240-bc4e-4517-84fe-c670918834e9",
+      "slug": "weight-management",
+      "name": "体重管理",
+      "compliant_name": "体重管理相关",
+      "description": "体重、体脂、食欲、能量摄入和代谢相关指标。",
+      "risk_level": "medium",
+      "aliases": [
+        {
+          "alias": "减肥",
+          "display_rewrite": "体重管理相关",
+          "is_sensitive": true
+        },
+        {
+          "alias": "燃脂",
+          "display_rewrite": "体重管理相关",
+          "is_sensitive": true
+        }
+      ]
+    },
+    {
+      "id": "c295afee-80c4-40f6-807a-2ec0701e1efb",
+      "slug": "blood-glucose",
+      "name": "血糖",
+      "compliant_name": "糖代谢相关指标",
+      "description": "空腹血糖、餐后血糖、HbA1c 等糖代谢指标。",
+      "risk_level": "high",
+      "aliases": [
+        {
+          "alias": "降血糖",
+          "display_rewrite": "糖代谢相关指标",
+          "is_sensitive": true
+        },
+        {
+          "alias": "糖尿病",
+          "display_rewrite": "糖代谢相关指标",
+          "is_sensitive": true
+        }
+      ]
+    },
+    {
+      "id": "a4ce984a-1e26-4034-9148-a74749efbc85",
+      "slug": "blood-lipids",
+      "name": "血脂",
+      "compliant_name": "血脂健康相关指标",
+      "description": "LDL-C、甘油三酯等血脂相关指标。",
+      "risk_level": "high",
+      "aliases": [
+        {
+          "alias": "高血脂",
+          "display_rewrite": "血脂健康相关指标",
+          "is_sensitive": true
+        },
+        {
+          "alias": "降血脂",
+          "display_rewrite": "血脂健康相关指标",
+          "is_sensitive": true
+        }
+      ]
+    },
+    {
+      "id": "d7224544-bae6-4af6-93e1-bfd8a9b36b7c",
+      "slug": "eye-health",
+      "name": "眼健康",
+      "compliant_name": "眼部健康相关",
+      "description": "黄斑、视觉功能和特定眼病风险人群相关证据。",
+      "risk_level": "medium",
+      "aliases": [
+        {
+          "alias": "护眼",
+          "display_rewrite": "眼部健康相关",
+          "is_sensitive": false
+        },
+        {
+          "alias": "黄斑",
+          "display_rewrite": "黄斑健康相关",
+          "is_sensitive": true
+        }
+      ]
+    },
+    {
+      "id": "d5c3cfbb-ba86-4f7d-b72a-5d9f1eefab8d",
+      "slug": "nutrient-status",
+      "name": "营养素缺乏/营养状态",
+      "compliant_name": "营养素补充和缺乏纠正相关",
+      "description": "铁、维生素B12等缺乏纠正或营养状态改善相关证据。",
+      "risk_level": "high",
+      "aliases": [
+        {
+          "alias": "贫血",
+          "display_rewrite": "铁营养和血红蛋白相关指标",
+          "is_sensitive": true
+        },
+        {
+          "alias": "缺铁",
+          "display_rewrite": "铁营养状态相关",
+          "is_sensitive": true
+        },
+        {
+          "alias": "素食营养",
+          "display_rewrite": "维生素B12营养状态相关",
+          "is_sensitive": false
+        }
+      ]
+    },
+    {
+      "id": "e88d39bf-09a3-46f4-98a6-de684db7e9a7",
+      "slug": "sports-performance",
+      "name": "运动表现",
+      "compliant_name": "运动表现和肌肉维持相关",
+      "description": "力量、功率、肌肉量、恢复和蛋白摄入相关证据。",
+      "risk_level": "low",
+      "aliases": [
+        {
+          "alias": "运动恢复",
+          "display_rewrite": "运动表现相关",
+          "is_sensitive": false
+        },
+        {
+          "alias": "增肌",
+          "display_rewrite": "肌肉维持和运动表现相关",
+          "is_sensitive": false
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "5eaa77cd-ff1a-4287-a648-57829f283dd3",
+      "ingredient_id": "dcd8d1d2-dfc0-4c5f-a1d9-bd9ea13dcb7e",
+      "health_target_id": "ed9d3411-c292-4d6b-b134-7cd1dddd637e",
+      "title": "GABA 与睡眠/压力",
+      "population": "睡眠质量下降或压力感受较高人群",
+      "outcome_metric": "睡眠质量、压力评分",
+      "evidence_strength": "low",
+      "feasibility": "medium",
+      "safety_risk": "low",
+      "public_conclusion": "GABA 口服补充用于睡眠和压力的证据仍有限，机制宣传不能替代人体结局证据。",
+      "professional_conclusion": null,
+      "dose_min": "100.0000",
+      "dose_max": "300.0000",
+      "dose_unit": "mg/day",
+      "dose_note": "不同产品剂量差异大，研究规模通常有限。",
+      "duration_min": 1,
+      "duration_max": 8,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "适合做低风险但低证据的辨析条目。",
+      "cautions": "合并镇静药物、孕哺期或儿童。",
+      "common_misunderstanding": null,
+      "compliance_note": "避免宣称抗焦虑或治疗失眠。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "gaba",
+      "ingredient_name_cn": "GABA",
+      "ingredient_name_en": "Gamma-aminobutyric acid",
+      "ingredient_category": "功能性成分",
+      "health_target_slug": "sleep",
+      "health_target_name": "睡眠",
+      "health_target_compliant_name": "睡眠质量相关",
+      "literatures": []
+    },
+    {
+      "id": "26a88bd2-304e-4de2-815a-7325489ceaf7",
+      "ingredient_id": "607622a0-2f6e-456b-9230-092f0702d848",
+      "health_target_id": "ed9d3411-c292-4d6b-b134-7cd1dddd637e",
+      "title": "L-茶氨酸与压力/睡眠质量",
+      "population": "压力感受高、睡眠质量下降或专注需求人群",
+      "outcome_metric": "压力评分、睡眠质量、注意力指标",
+      "evidence_strength": "medium",
+      "feasibility": "high",
+      "safety_risk": "low",
+      "public_conclusion": "L-茶氨酸对压力和睡眠质量相关指标有一定研究，安全性相对较好，但效果通常温和。",
+      "professional_conclusion": null,
+      "dose_min": "100.0000",
+      "dose_max": "400.0000",
+      "dose_unit": "mg/day",
+      "dose_note": "可单独或与咖啡因组合研究，终点需区分。",
+      "duration_min": 1,
+      "duration_max": 8,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "压力感受较高、睡眠质量轻度下降或专注需求人群。",
+      "cautions": "合并镇静药物或孕哺期人群需谨慎。",
+      "common_misunderstanding": null,
+      "compliance_note": "避免宣称治疗焦虑或失眠。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "l-theanine",
+      "ingredient_name_cn": "L-茶氨酸",
+      "ingredient_name_en": "L-theanine",
+      "ingredient_category": "氨基酸衍生物",
+      "health_target_slug": "sleep",
+      "health_target_name": "睡眠",
+      "health_target_compliant_name": "睡眠质量相关",
+      "literatures": []
+    },
+    {
+      "id": "9023514a-111d-4496-8b82-412781e2db90",
+      "ingredient_id": "faa64805-ff80-4409-8cb5-c0222a0da873",
+      "health_target_id": "71cbd240-bc4e-4517-84fe-c670918834e9",
+      "title": "NMN 与抗衰老/代谢宣传",
+      "population": "普通健康成人或代谢指标关注人群",
+      "outcome_metric": "NAD+相关指标、代谢指标",
+      "evidence_strength": "low",
+      "feasibility": "low",
+      "safety_risk": "medium",
+      "public_conclusion": "NMN 人体长期结局证据不足，不应把机制指标等同于抗衰老效果。",
+      "professional_conclusion": null,
+      "dose_min": "250.0000",
+      "dose_max": "600.0000",
+      "dose_unit": "mg/day",
+      "dose_note": "不同研究剂量和终点差异大，长期安全性资料不足。",
+      "duration_min": 4,
+      "duration_max": 12,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "仅适合以证据辨析方式展示，不建议作为强推荐。",
+      "cautions": "孕哺期、儿童、肿瘤相关风险或长期用药人群。",
+      "common_misunderstanding": null,
+      "compliance_note": "避免抗衰老、逆转衰老等表述。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "nmn",
+      "ingredient_name_cn": "NMN",
+      "ingredient_name_en": "Nicotinamide mononucleotide",
+      "ingredient_category": "功能性成分",
+      "health_target_slug": "weight-management",
+      "health_target_name": "体重管理",
+      "health_target_compliant_name": "体重管理相关",
+      "literatures": []
+    },
+    {
+      "id": "b877b57c-b873-4c35-8f76-c69978734d62",
+      "ingredient_id": "f3a7b66c-c51c-4002-83ea-2fd8c5bf2815",
+      "health_target_id": "a4ce984a-1e26-4034-9148-a74749efbc85",
+      "title": "Omega-3 与甘油三酯",
+      "population": "甘油三酯偏高或相关风险人群",
+      "outcome_metric": "甘油三酯",
+      "evidence_strength": "high",
+      "feasibility": "medium",
+      "safety_risk": "medium",
+      "public_conclusion": "Omega-3 对降低甘油三酯有较明确证据，但通常需要较高 EPA+DHA 剂量，普通低剂量鱼油不能直接等同。",
+      "professional_conclusion": null,
+      "dose_min": "2.0000",
+      "dose_max": "4.0000",
+      "dose_unit": "g/day EPA+DHA",
+      "dose_note": "这里是研究中常见剂量范围，不是个人服用建议。",
+      "duration_min": 8,
+      "duration_max": 16,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "甘油三酯偏高且已评估饮食、体重和药物管理需求的人群。",
+      "cautions": "抗凝药使用者、术前人群、出血风险人群。",
+      "common_misunderstanding": null,
+      "compliance_note": "不得表述为治疗高脂血症或替代降脂药。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "omega-3",
+      "ingredient_name_cn": "Omega-3 / 鱼油 / EPA+DHA",
+      "ingredient_name_en": "Omega-3 fatty acids",
+      "ingredient_category": "脂肪酸",
+      "health_target_slug": "blood-lipids",
+      "health_target_name": "血脂",
+      "health_target_compliant_name": "血脂健康相关指标",
+      "literatures": []
+    },
+    {
+      "id": "139f971d-1114-4a5e-aa34-df14123d5b2d",
+      "ingredient_id": "fce171ac-b433-4700-8025-2cbcf5c56067",
+      "health_target_id": "c295afee-80c4-40f6-807a-2ec0701e1efb",
+      "title": "α-硫辛酸与糖代谢相关指标",
+      "population": "糖代谢异常或神经症状相关研究人群",
+      "outcome_metric": "空腹血糖、胰岛素抵抗、神经症状评分",
+      "evidence_strength": "medium",
+      "feasibility": "medium",
+      "safety_risk": "medium",
+      "public_conclusion": "α-硫辛酸在糖代谢和神经症状相关研究中有一定证据，但不能替代糖尿病治疗。",
+      "professional_conclusion": null,
+      "dose_min": "300.0000",
+      "dose_max": "600.0000",
+      "dose_unit": "mg/day",
+      "dose_note": "使用降糖药者需关注低血糖风险。",
+      "duration_min": 4,
+      "duration_max": 24,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "经专业评估的糖代谢异常或相关神经症状人群。",
+      "cautions": "使用降糖药、孕哺期、甲状腺疾病或低血糖风险人群。",
+      "common_misunderstanding": null,
+      "compliance_note": "不得宣称治疗糖尿病或神经病变。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "alpha-lipoic-acid",
+      "ingredient_name_cn": "α-硫辛酸",
+      "ingredient_name_en": "Alpha-lipoic acid",
+      "ingredient_category": "抗氧化成分",
+      "health_target_slug": "blood-glucose",
+      "health_target_name": "血糖",
+      "health_target_compliant_name": "糖代谢相关指标",
+      "literatures": []
+    },
+    {
+      "id": "6b39d169-78d4-4f6e-b47f-6459b50e1a8d",
+      "ingredient_id": "e17ba420-e8ef-42ce-b434-4ddaffa61942",
+      "health_target_id": "a4ce984a-1e26-4034-9148-a74749efbc85",
+      "title": "β-葡聚糖与 LDL-C",
+      "population": "LDL-C偏高或燕麦纤维摄入不足人群",
+      "outcome_metric": "LDL-C",
+      "evidence_strength": "high",
+      "feasibility": "high",
+      "safety_risk": "low",
+      "public_conclusion": "燕麦或大麦来源 β-葡聚糖对 LDL-C 有较明确证据，关键是达到有效纤维剂量。",
+      "professional_conclusion": null,
+      "dose_min": "3.0000",
+      "dose_max": "4.0000",
+      "dose_unit": "g/day",
+      "dose_note": "通常指燕麦或大麦 β-葡聚糖。",
+      "duration_min": 4,
+      "duration_max": 12,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "希望通过膳食结构改善 LDL-C 相关指标的人群。",
+      "cautions": "胃肠敏感者需关注腹胀。",
+      "common_misunderstanding": null,
+      "compliance_note": "不得宣称治疗高脂血症。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "beta-glucan",
+      "ingredient_name_cn": "β-葡聚糖",
+      "ingredient_name_en": "Beta-glucan",
+      "ingredient_category": "膳食纤维",
+      "health_target_slug": "blood-lipids",
+      "health_target_name": "血脂",
+      "health_target_compliant_name": "血脂健康相关指标",
+      "literatures": []
+    },
+    {
+      "id": "f5c0cc22-e4ee-42df-9178-a691435d5220",
+      "ingredient_id": "8dc61c36-d1f9-4804-b020-90f4fdbc9d5a",
+      "health_target_id": "a4ce984a-1e26-4034-9148-a74749efbc85",
+      "title": "车前子壳与 LDL-C",
+      "population": "LDL-C偏高或膳食纤维摄入不足人群",
+      "outcome_metric": "LDL-C、总胆固醇",
+      "evidence_strength": "high",
+      "feasibility": "high",
+      "safety_risk": "low",
+      "public_conclusion": "车前子壳作为可溶性纤维，对 LDL-C 和排便相关指标有较实用证据，但需足量饮水。",
+      "professional_conclusion": null,
+      "dose_min": "7.0000",
+      "dose_max": "12.0000",
+      "dose_unit": "g/day",
+      "dose_note": "研究多使用每日数克级可溶性纤维。",
+      "duration_min": 4,
+      "duration_max": 12,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "膳食纤维摄入不足、希望改善血脂相关指标的人群。",
+      "cautions": "吞咽困难、肠梗阻风险、需与药物错开服用者。",
+      "common_misunderstanding": null,
+      "compliance_note": "不得宣称治疗高脂血症。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "psyllium-husk",
+      "ingredient_name_cn": "车前子壳",
+      "ingredient_name_en": "Psyllium husk",
+      "ingredient_category": "膳食纤维",
+      "health_target_slug": "blood-lipids",
+      "health_target_name": "血脂",
+      "health_target_compliant_name": "血脂健康相关指标",
+      "literatures": []
+    },
+    {
+      "id": "01eec8a4-2579-47b2-99c3-995155337f51",
+      "ingredient_id": "0fc20d6d-dd6b-445e-b49f-90b39670d988",
+      "health_target_id": "e88d39bf-09a3-46f4-98a6-de684db7e9a7",
+      "title": "辅酶Q10 与疲劳相关指标",
+      "population": "特定疲劳或心血管相关用药背景人群",
+      "outcome_metric": "疲劳评分、运动耐量",
+      "evidence_strength": "medium",
+      "feasibility": "medium",
+      "safety_risk": "low",
+      "public_conclusion": "辅酶Q10在部分疲劳和心血管相关场景有研究，但普通健康人群提升精力的证据不应夸大。",
+      "professional_conclusion": null,
+      "dose_min": "100.0000",
+      "dose_max": "300.0000",
+      "dose_unit": "mg/day",
+      "dose_note": "剂型和吸收差异较大。",
+      "duration_min": 4,
+      "duration_max": 12,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "特定疲劳主诉、他汀相关肌肉症状讨论场景需专业评估。",
+      "cautions": "华法林等抗凝药使用者。",
+      "common_misunderstanding": null,
+      "compliance_note": "避免宣称治疗心脏病或改善所有疲劳。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "coq10",
+      "ingredient_name_cn": "辅酶Q10",
+      "ingredient_name_en": "Coenzyme Q10",
+      "ingredient_category": "辅酶",
+      "health_target_slug": "sports-performance",
+      "health_target_name": "运动表现",
+      "health_target_compliant_name": "运动表现和肌肉维持相关",
+      "literatures": []
+    },
+    {
+      "id": "98fe6095-478f-43fe-ae38-6658a0bc1994",
+      "ingredient_id": "3d413adc-0d83-4604-b2e6-0a6a7fa2d326",
+      "health_target_id": "ef31bff2-2081-4512-bb05-95168a0f545d",
+      "title": "钙与骨骼健康",
+      "population": "钙摄入不足或骨骼风险人群",
+      "outcome_metric": "钙摄入量、骨密度、骨折风险",
+      "evidence_strength": "high",
+      "feasibility": "high",
+      "safety_risk": "medium",
+      "public_conclusion": "钙对骨骼健康属于基础营养支持，价值取决于基础摄入、维生素D状态和个体风险。",
+      "professional_conclusion": null,
+      "dose_min": "500.0000",
+      "dose_max": "1200.0000",
+      "dose_unit": "mg/day total calcium",
+      "dose_note": "应计算膳食和补充剂总钙摄入。",
+      "duration_min": 12,
+      "duration_max": 260,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "钙摄入不足、老年或骨骼风险人群。",
+      "cautions": "肾结石、高钙血症、肾病或相关药物使用者。",
+      "common_misunderstanding": null,
+      "compliance_note": "不得宣称治疗骨质疏松。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "calcium",
+      "ingredient_name_cn": "钙",
+      "ingredient_name_en": "Calcium",
+      "ingredient_category": "矿物质",
+      "health_target_slug": "joint-bone",
+      "health_target_name": "关节/骨骼",
+      "health_target_compliant_name": "关节舒适度和骨骼健康相关",
+      "literatures": []
+    },
+    {
+      "id": "015f186e-2779-476e-9347-dd20facd66fe",
+      "ingredient_id": "92c6bd60-8a64-4db0-8b06-b5a353d83061",
+      "health_target_id": "e88d39bf-09a3-46f4-98a6-de684db7e9a7",
+      "title": "肌酸与力量运动表现",
+      "population": "阻力训练或高强度间歇运动人群",
+      "outcome_metric": "最大力量、功率、瘦体重",
+      "evidence_strength": "high",
+      "feasibility": "high",
+      "safety_risk": "low",
+      "public_conclusion": "肌酸对力量和高强度运动表现证据较强，实际可行性高。",
+      "professional_conclusion": null,
+      "dose_min": "3.0000",
+      "dose_max": "5.0000",
+      "dose_unit": "g/day",
+      "dose_note": "常见维持剂量为每日 3-5 g；是否加载需按方案判断。",
+      "duration_min": 4,
+      "duration_max": 12,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "规律阻力训练、高强度运动或肌肉维持需求人群。",
+      "cautions": "肾病患者、需限制肌酸酐解读的人群。",
+      "common_misunderstanding": null,
+      "compliance_note": "不得宣称治疗肌少症或肾病相关问题。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "creatine",
+      "ingredient_name_cn": "肌酸",
+      "ingredient_name_en": "Creatine",
+      "ingredient_category": "运动营养",
+      "health_target_slug": "sports-performance",
+      "health_target_name": "运动表现",
+      "health_target_compliant_name": "运动表现和肌肉维持相关",
+      "literatures": []
+    },
+    {
+      "id": "04cfcb13-7b2b-4938-9bfa-5b42e326d00e",
+      "ingredient_id": "e179de23-01d8-4ab3-ab4d-6bf78f982810",
+      "health_target_id": "ef31bff2-2081-4512-bb05-95168a0f545d",
+      "title": "姜黄素与关节舒适度",
+      "population": "关节不适或炎症相关指标关注人群",
+      "outcome_metric": "疼痛评分、炎症指标",
+      "evidence_strength": "medium",
+      "feasibility": "medium",
+      "safety_risk": "medium",
+      "public_conclusion": "姜黄素对关节不适和部分炎症相关指标有一定研究，但吸收剂型差异很大。",
+      "professional_conclusion": null,
+      "dose_min": "500.0000",
+      "dose_max": "1500.0000",
+      "dose_unit": "mg/day curcuminoids",
+      "dose_note": "需注明是否为增强吸收剂型。",
+      "duration_min": 4,
+      "duration_max": 12,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "轻中度关节不适且无明显禁忌的人群。",
+      "cautions": "胆囊疾病、抗凝药使用者、术前人群。",
+      "common_misunderstanding": null,
+      "compliance_note": "不得宣称消炎或治疗关节炎。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "curcumin",
+      "ingredient_name_cn": "姜黄素",
+      "ingredient_name_en": "Curcumin",
+      "ingredient_category": "植物提取物",
+      "health_target_slug": "joint-bone",
+      "health_target_name": "关节/骨骼",
+      "health_target_compliant_name": "关节舒适度和骨骼健康相关",
+      "literatures": []
+    },
+    {
+      "id": "9777fd51-1c80-4d0a-8f38-c730035720fd",
+      "ingredient_id": "e3e6115b-415e-4f69-ac57-728b076fd769",
+      "health_target_id": "b495d27b-a00a-4432-9468-af432f04d3ca",
+      "title": "胶原蛋白肽与皮肤指标",
+      "population": "关注皮肤含水量、弹性或轻度老化指标人群",
+      "outcome_metric": "皮肤含水量、弹性、皱纹指标",
+      "evidence_strength": "medium",
+      "feasibility": "high",
+      "safety_risk": "low",
+      "public_conclusion": "胶原蛋白肽对部分皮肤指标有中等证据，但效果通常温和，不应等同于逆转衰老。",
+      "professional_conclusion": null,
+      "dose_min": "2.5000",
+      "dose_max": "10.0000",
+      "dose_unit": "g/day",
+      "dose_note": "不同原料和肽段差异可能影响结果。",
+      "duration_min": 8,
+      "duration_max": 12,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "希望改善皮肤含水量或弹性等指标的人群。",
+      "cautions": "蛋白来源过敏者。",
+      "common_misunderstanding": null,
+      "compliance_note": "避免宣称抗衰老或治疗皮肤病。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "collagen-peptides",
+      "ingredient_name_cn": "胶原蛋白肽",
+      "ingredient_name_en": "Collagen peptides",
+      "ingredient_category": "蛋白肽",
+      "health_target_slug": "skin-health",
+      "health_target_name": "皮肤",
+      "health_target_compliant_name": "皮肤健康相关",
+      "literatures": []
+    },
+    {
+      "id": "70553d11-e6a7-4b67-81ee-3e7437efc825",
+      "ingredient_id": "1104257b-086b-4321-ab66-9fc7f628169f",
+      "health_target_id": "71cbd240-bc4e-4517-84fe-c670918834e9",
+      "title": "绿茶提取物/EGCG 与体重管理",
+      "population": "体重管理人群",
+      "outcome_metric": "体重、能量消耗、脂肪氧化指标",
+      "evidence_strength": "low",
+      "feasibility": "medium",
+      "safety_risk": "high",
+      "public_conclusion": "绿茶提取物对体重管理效果有限且高剂量存在肝损伤风险，安全提示应优先展示。",
+      "professional_conclusion": null,
+      "dose_min": "300.0000",
+      "dose_max": "800.0000",
+      "dose_unit": "mg/day EGCG",
+      "dose_note": "高剂量 EGCG 风险增加，空腹使用需谨慎。",
+      "duration_min": 8,
+      "duration_max": 12,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "不建议作为主要体重管理方案。",
+      "cautions": "肝病、饮酒较多、合并肝毒性药物或空腹高剂量使用者。",
+      "common_misunderstanding": null,
+      "compliance_note": "不得宣称快速减肥或治疗肥胖。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "green-tea-extract-egcg",
+      "ingredient_name_cn": "绿茶提取物 / EGCG",
+      "ingredient_name_en": "Green tea extract / EGCG",
+      "ingredient_category": "植物提取物",
+      "health_target_slug": "weight-management",
+      "health_target_name": "体重管理",
+      "health_target_compliant_name": "体重管理相关",
+      "literatures": []
+    },
+    {
+      "id": "983140f6-017e-4ab3-96e6-1b4df4203ffe",
+      "ingredient_id": "25b7163d-1eb0-4383-a3b6-1bf6f2d5eafc",
+      "health_target_id": "ed9d3411-c292-4d6b-b134-7cd1dddd637e",
+      "title": "镁与睡眠质量",
+      "population": "摄入不足、老年或特定睡眠质量下降人群",
+      "outcome_metric": "睡眠质量、入睡时间",
+      "evidence_strength": "medium",
+      "feasibility": "medium",
+      "safety_risk": "medium",
+      "public_conclusion": "镁对睡眠的证据受人群影响较大，可能更适合摄入不足或特定人群，不应泛化为治疗失眠。",
+      "professional_conclusion": null,
+      "dose_min": "200.0000",
+      "dose_max": "500.0000",
+      "dose_unit": "mg/day elemental magnesium",
+      "dose_note": "需区分元素镁剂量和化合物总量。",
+      "duration_min": 4,
+      "duration_max": 12,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "镁摄入不足或存在肌肉紧张、睡眠质量下降的人群。",
+      "cautions": "肾功能异常者、合并多种药物者。",
+      "common_misunderstanding": null,
+      "compliance_note": "避免使用“治疗失眠”。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "magnesium",
+      "ingredient_name_cn": "镁",
+      "ingredient_name_en": "Magnesium",
+      "ingredient_category": "矿物质",
+      "health_target_slug": "sleep",
+      "health_target_name": "睡眠",
+      "health_target_compliant_name": "睡眠质量相关",
+      "literatures": []
+    },
+    {
+      "id": "35b75cad-f353-44ee-afc1-cda5ebaeba95",
+      "ingredient_id": "f7b9281a-8365-49b4-bb10-f815e87a1209",
+      "health_target_id": "ef31bff2-2081-4512-bb05-95168a0f545d",
+      "title": "葡萄糖胺与关节不适",
+      "population": "骨关节相关不适人群",
+      "outcome_metric": "疼痛评分、功能评分",
+      "evidence_strength": "low",
+      "feasibility": "medium",
+      "safety_risk": "low",
+      "public_conclusion": "葡萄糖胺用于关节不适的研究结论不一致，可能对部分人群有帮助，但不应强推荐。",
+      "professional_conclusion": null,
+      "dose_min": "1500.0000",
+      "dose_max": "1500.0000",
+      "dose_unit": "mg/day",
+      "dose_note": "硫酸盐和盐酸盐形式研究不能简单合并。",
+      "duration_min": 8,
+      "duration_max": 24,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "骨关节相关不适且愿意进行有限试用的人群。",
+      "cautions": "甲壳类过敏、抗凝药使用者、糖代谢异常人群。",
+      "common_misunderstanding": null,
+      "compliance_note": "不得宣称治疗骨关节炎。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "glucosamine",
+      "ingredient_name_cn": "葡萄糖胺",
+      "ingredient_name_en": "Glucosamine",
+      "ingredient_category": "关节营养",
+      "health_target_slug": "joint-bone",
+      "health_target_name": "关节/骨骼",
+      "health_target_compliant_name": "关节舒适度和骨骼健康相关",
+      "literatures": []
+    },
+    {
+      "id": "5ff7e021-e41b-475b-89ba-2b0492c84403",
+      "ingredient_id": "c943f7eb-bb42-42ff-9420-953138a73ae1",
+      "health_target_id": "e88d39bf-09a3-46f4-98a6-de684db7e9a7",
+      "title": "乳清蛋白与肌肉维持",
+      "population": "蛋白摄入不足、阻力训练或老年肌肉维持人群",
+      "outcome_metric": "总蛋白摄入、瘦体重、力量",
+      "evidence_strength": "high",
+      "feasibility": "high",
+      "safety_risk": "low",
+      "public_conclusion": "乳清蛋白可帮助达到每日蛋白目标，效果取决于总蛋白摄入、训练和能量状态。",
+      "professional_conclusion": null,
+      "dose_min": "20.0000",
+      "dose_max": "40.0000",
+      "dose_unit": "g/serving protein",
+      "dose_note": "应以每日总蛋白摄入为核心，而非单次产品剂量。",
+      "duration_min": 8,
+      "duration_max": 24,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "蛋白摄入不足、运动训练或老年肌肉维持人群。",
+      "cautions": "牛奶蛋白过敏、严重肾病或需限制蛋白者。",
+      "common_misunderstanding": null,
+      "compliance_note": "不得宣称治疗肌少症。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "whey-protein",
+      "ingredient_name_cn": "乳清蛋白",
+      "ingredient_name_en": "Whey protein",
+      "ingredient_category": "蛋白质",
+      "health_target_slug": "sports-performance",
+      "health_target_name": "运动表现",
+      "health_target_compliant_name": "运动表现和肌肉维持相关",
+      "literatures": []
+    },
+    {
+      "id": "d734f243-1954-4968-9cca-2d1d976a5672",
+      "ingredient_id": "7961a22a-65d6-48d8-8f35-49add221a67a",
+      "health_target_id": "ef31bff2-2081-4512-bb05-95168a0f545d",
+      "title": "软骨素与关节不适",
+      "population": "骨关节相关不适人群",
+      "outcome_metric": "疼痛评分、功能评分",
+      "evidence_strength": "low",
+      "feasibility": "medium",
+      "safety_risk": "low",
+      "public_conclusion": "软骨素用于关节相关症状的证据存在争议，通常需要结合具体产品质量和研究设计判断。",
+      "professional_conclusion": null,
+      "dose_min": "800.0000",
+      "dose_max": "1200.0000",
+      "dose_unit": "mg/day",
+      "dose_note": "常见研究剂量为每日 800-1200 mg。",
+      "duration_min": 8,
+      "duration_max": 24,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "骨关节相关不适且希望尝试营养支持的人群。",
+      "cautions": "抗凝药使用者。",
+      "common_misunderstanding": null,
+      "compliance_note": "不得宣称治疗骨关节炎。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "chondroitin",
+      "ingredient_name_cn": "软骨素",
+      "ingredient_name_en": "Chondroitin",
+      "ingredient_category": "关节营养",
+      "health_target_slug": "joint-bone",
+      "health_target_name": "关节/骨骼",
+      "health_target_compliant_name": "关节舒适度和骨骼健康相关",
+      "literatures": []
+    },
+    {
+      "id": "2f956cd2-b8cf-4f47-8696-ac7ac9c63ee0",
+      "ingredient_id": "db6b1cc6-90f7-42f9-b8a9-41f4cf58fe27",
+      "health_target_id": "d5c3cfbb-ba86-4f7d-b72a-5d9f1eefab8d",
+      "title": "铁与缺铁相关疲劳/贫血",
+      "population": "缺铁或缺铁性贫血人群",
+      "outcome_metric": "铁蛋白、血红蛋白、疲劳评分",
+      "evidence_strength": "high",
+      "feasibility": "high",
+      "safety_risk": "high",
+      "public_conclusion": "铁只适合缺铁或缺铁性贫血相关场景，不能作为普通疲劳或免疫补充剂随意使用。",
+      "professional_conclusion": null,
+      "dose_min": "18.0000",
+      "dose_max": "100.0000",
+      "dose_unit": "mg/day elemental iron",
+      "dose_note": "治疗性剂量必须由医生根据检测决定。",
+      "duration_min": 8,
+      "duration_max": 24,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "明确缺铁、月经过多或孕期等缺铁风险人群。",
+      "cautions": "铁过载、儿童误服风险、慢性病贫血未明确病因者。",
+      "common_misunderstanding": null,
+      "compliance_note": "不得引导无检测依据的人群补铁。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "iron",
+      "ingredient_name_cn": "铁",
+      "ingredient_name_en": "Iron",
+      "ingredient_category": "矿物质",
+      "health_target_slug": "nutrient-status",
+      "health_target_name": "营养素缺乏/营养状态",
+      "health_target_compliant_name": "营养素补充和缺乏纠正相关",
+      "literatures": []
+    },
+    {
+      "id": "41f0fdc7-b99a-4e98-94f6-cc13cfc2b2b2",
+      "ingredient_id": "e9660a45-969a-4ced-972a-bcfc0d366333",
+      "health_target_id": "ed9d3411-c292-4d6b-b134-7cd1dddd637e",
+      "title": "褪黑素与入睡时间",
+      "population": "昼夜节律紊乱、时差或短期入睡困难人群",
+      "outcome_metric": "入睡潜伏期、节律调整",
+      "evidence_strength": "high",
+      "feasibility": "high",
+      "safety_risk": "medium",
+      "public_conclusion": "褪黑素对缩短入睡时间和调整昼夜节律证据较明确，但不适合被泛化为所有失眠问题的长期解决方案。",
+      "professional_conclusion": "当前草稿结论主要依据人体随机对照试验的系统综述/Meta 分析方向：褪黑素对入睡潜伏期、睡眠质量和昼夜节律相关结局存在较一致的短期研究支持，但研究人群、给药时间、剂量和结局指标存在异质性。该结论不应外推为长期治疗所有失眠问题。",
+      "dose_min": "0.5000",
+      "dose_max": "5.0000",
+      "dose_unit": "mg/day",
+      "dose_note": "剂量和服用时间对结果影响较大。",
+      "duration_min": 1,
+      "duration_max": 8,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "时差、作息后移、短期入睡困难人群。",
+      "cautions": "儿童、孕哺期、癫痫、精神疾病、镇静药或抗凝药使用者。",
+      "common_misunderstanding": null,
+      "compliance_note": "避免表述为治疗失眠。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "melatonin",
+      "ingredient_name_cn": "褪黑素",
+      "ingredient_name_en": "Melatonin",
+      "ingredient_category": "功能性成分",
+      "health_target_slug": "sleep",
+      "health_target_name": "睡眠",
+      "health_target_compliant_name": "睡眠质量相关",
+      "literatures": [
+        {
+          "id": "142052c6-f0d9-4859-98f1-740384991f3c",
+          "title": "Optimizing the Time and Dose of Melatonin as a Sleep-Promoting Drug: A Systematic Review of Randomized Controlled Trials and Dose-Response Meta-Analysis.",
+          "year": 2024,
+          "journal": "Journal of Pineal Research",
+          "study_type": "meta_analysis",
+          "pmid": "38888087",
+          "doi": "10.1111/jpi.12985",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38888087/",
+          "abstract": "Systematic review and dose-response meta-analysis of double-blind randomized controlled trials on melatonin timing and dose for sleep-related parameters.",
+          "population": "Patients with insomnia and healthy volunteers in randomized controlled trials.",
+          "intervention": "Exogenous melatonin with varying dose and timing.",
+          "outcomes": "Sleep onset latency and total sleep time.",
+          "limitations": "Dose, timing, insomnia status and study design differences affect interpretation.",
+          "evidence_role": "primary",
+          "weight": 5,
+          "extracted_dose": "Dose-response review; reported peak around 4 mg/day in included trials.",
+          "extracted_duration": "RCTs published between 1987 and 2020.",
+          "extracted_result": "Reported reductions in sleep onset latency and increases in total sleep time; timing and dose materially affected results.",
+          "reviewer_note": "Seeded demonstration link; requires expert verification before publication."
+        },
+        {
+          "id": "6a41f0b4-d92e-448c-ad2a-f8c9341f5666",
+          "title": "Effect of melatonin supplementation on sleep quality: a systematic review and meta-analysis of randomized controlled trials.",
+          "year": 2022,
+          "journal": "Journal of Neurology",
+          "study_type": "meta_analysis",
+          "pmid": "33417003",
+          "doi": "10.1007/s00415-020-10381-w",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33417003/",
+          "abstract": "Systematic review and meta-analysis of randomized clinical trials assessing melatonin and sleep quality in adults with various diseases.",
+          "population": "Adults in randomized clinical trials across several health conditions.",
+          "intervention": "Melatonin supplementation.",
+          "outcomes": "Sleep quality assessed mainly by Pittsburgh Sleep Quality Index and subgroup analyses.",
+          "limitations": "Substantial heterogeneity across included studies; results vary by health status and intervention details.",
+          "evidence_role": "supporting",
+          "weight": 4,
+          "extracted_dose": "Varied across included randomized trials.",
+          "extracted_duration": "Varied across included randomized trials.",
+          "extracted_result": "Meta-analysis found improved PSQI sleep quality scores overall, with significant heterogeneity.",
+          "reviewer_note": "Seeded demonstration link; requires expert verification before publication."
+        }
+      ]
+    },
+    {
+      "id": "8f79a34c-d38c-4861-b341-5ab93e86648a",
+      "ingredient_id": "da8f5849-a96e-4544-8d7e-9e1c0638352b",
+      "health_target_id": "d5c3cfbb-ba86-4f7d-b72a-5d9f1eefab8d",
+      "title": "维生素B12 与缺乏纠正",
+      "population": "素食、老年、吸收不良或缺乏风险人群",
+      "outcome_metric": "B12状态、贫血和神经相关指标",
+      "evidence_strength": "high",
+      "feasibility": "high",
+      "safety_risk": "low",
+      "public_conclusion": "维生素B12用于缺乏纠正证据明确，普通人群额外补充不一定带来可感知收益。",
+      "professional_conclusion": null,
+      "dose_min": "25.0000",
+      "dose_max": "1000.0000",
+      "dose_unit": "mcg/day",
+      "dose_note": "剂量取决于缺乏程度、吸收情况和给药方式。",
+      "duration_min": 4,
+      "duration_max": 24,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "素食者、老年人、胃肠吸收风险或检测提示不足者。",
+      "cautions": "已有神经症状或贫血者需医学评估。",
+      "common_misunderstanding": null,
+      "compliance_note": "不得宣称治疗贫血或神经疾病。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "vitamin-b12",
+      "ingredient_name_cn": "维生素B12",
+      "ingredient_name_en": "Vitamin B12",
+      "ingredient_category": "维生素",
+      "health_target_slug": "nutrient-status",
+      "health_target_name": "营养素缺乏/营养状态",
+      "health_target_compliant_name": "营养素补充和缺乏纠正相关",
+      "literatures": []
+    },
+    {
+      "id": "1f652f05-bece-43a0-b19c-1cbaa1c053f5",
+      "ingredient_id": "e409d184-9a7a-4f68-a553-61383f298a7e",
+      "health_target_id": "ed833246-ff3f-4a09-b3a7-7902c8272dfb",
+      "title": "维生素C 与免疫相关场景",
+      "population": "维生素C摄入不足、运动压力或普通感冒相关研究人群",
+      "outcome_metric": "感冒持续时间、缺乏纠正",
+      "evidence_strength": "low",
+      "feasibility": "high",
+      "safety_risk": "low",
+      "public_conclusion": "维生素C纠正缺乏证据明确，但普通人群“提高免疫力”的泛化证据有限。",
+      "professional_conclusion": null,
+      "dose_min": "200.0000",
+      "dose_max": "1000.0000",
+      "dose_unit": "mg/day",
+      "dose_note": "高剂量不等于更好效果。",
+      "duration_min": 1,
+      "duration_max": 12,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "摄入不足或特定压力场景人群。",
+      "cautions": "肾结石风险、胃肠敏感或铁过载风险人群。",
+      "common_misunderstanding": null,
+      "compliance_note": "不得宣称预防或治疗感冒。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "vitamin-c",
+      "ingredient_name_cn": "维生素C",
+      "ingredient_name_en": "Vitamin C",
+      "ingredient_category": "维生素",
+      "health_target_slug": "immune-health",
+      "health_target_name": "免疫",
+      "health_target_compliant_name": "免疫功能相关",
+      "literatures": []
+    },
+    {
+      "id": "7a18e28b-ee11-4337-9ac0-699c0c82f0bc",
+      "ingredient_id": "b8f1360e-45de-4875-b209-b4cb9a1c9e7a",
+      "health_target_id": "ef31bff2-2081-4512-bb05-95168a0f545d",
+      "title": "维生素D 与骨骼健康",
+      "population": "维生素D不足、日晒不足或骨骼风险人群",
+      "outcome_metric": "25(OH)D、骨密度、跌倒风险",
+      "evidence_strength": "high",
+      "feasibility": "high",
+      "safety_risk": "medium",
+      "public_conclusion": "维生素D用于纠正缺乏和支持骨骼健康证据明确，但普通人群超量补充不等于额外获益。",
+      "professional_conclusion": null,
+      "dose_min": "400.0000",
+      "dose_max": "2000.0000",
+      "dose_unit": "IU/day",
+      "dose_note": "剂量需结合检测、膳食、日晒和年龄评估。",
+      "duration_min": 8,
+      "duration_max": 52,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "缺乏或摄入不足、老年人、骨骼风险较高人群。",
+      "cautions": "高钙血症、肾病、结石风险或正在使用相关药物者。",
+      "common_misunderstanding": null,
+      "compliance_note": "不得宣称治疗骨质疏松。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "vitamin-d",
+      "ingredient_name_cn": "维生素D",
+      "ingredient_name_en": "Vitamin D",
+      "ingredient_category": "维生素",
+      "health_target_slug": "joint-bone",
+      "health_target_name": "关节/骨骼",
+      "health_target_compliant_name": "关节舒适度和骨骼健康相关",
+      "literatures": []
+    },
+    {
+      "id": "e9204129-3928-4b96-8d1d-ffedf252c862",
+      "ingredient_id": "ed3fd277-7819-4a49-9494-62f16c0a7d1b",
+      "health_target_id": "ef31bff2-2081-4512-bb05-95168a0f545d",
+      "title": "维生素K2 与骨骼相关指标",
+      "population": "骨骼健康关注人群",
+      "outcome_metric": "骨密度、骨代谢指标",
+      "evidence_strength": "low",
+      "feasibility": "medium",
+      "safety_risk": "medium",
+      "public_conclusion": "维生素K2在骨骼相关指标上有研究，但证据强度和适用人群仍需谨慎界定。",
+      "professional_conclusion": null,
+      "dose_min": "45.0000",
+      "dose_max": "180.0000",
+      "dose_unit": "mcg/day",
+      "dose_note": "MK-4 与 MK-7 剂量不可直接等同。",
+      "duration_min": 12,
+      "duration_max": 104,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "骨骼健康关注且无抗凝药禁忌的人群。",
+      "cautions": "华法林使用者。",
+      "common_misunderstanding": null,
+      "compliance_note": "不得宣称治疗骨质疏松或血管钙化。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "vitamin-k2",
+      "ingredient_name_cn": "维生素K2",
+      "ingredient_name_en": "Vitamin K2",
+      "ingredient_category": "维生素",
+      "health_target_slug": "joint-bone",
+      "health_target_name": "关节/骨骼",
+      "health_target_compliant_name": "关节舒适度和骨骼健康相关",
+      "literatures": []
+    },
+    {
+      "id": "87d652e1-b209-4d1c-bde9-6ab61caf6fca",
+      "ingredient_id": "3b7af648-d4f1-422d-b2cf-7d6404db02f7",
+      "health_target_id": "ed833246-ff3f-4a09-b3a7-7902c8272dfb",
+      "title": "锌与免疫相关指标",
+      "population": "锌摄入不足或特定感染持续时间研究人群",
+      "outcome_metric": "锌状态、感冒持续时间、免疫指标",
+      "evidence_strength": "medium",
+      "feasibility": "high",
+      "safety_risk": "medium",
+      "public_conclusion": "锌对缺乏纠正意义明确，部分免疫相关场景有研究，但长期过量风险不能忽略。",
+      "professional_conclusion": null,
+      "dose_min": "10.0000",
+      "dose_max": "40.0000",
+      "dose_unit": "mg/day elemental zinc",
+      "dose_note": "应区分元素锌和化合物剂量。",
+      "duration_min": 1,
+      "duration_max": 12,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "锌摄入不足或经评估存在缺乏风险的人群。",
+      "cautions": "长期高剂量、铜缺乏风险、胃肠敏感人群。",
+      "common_misunderstanding": null,
+      "compliance_note": "不得宣称预防或治疗感染。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "zinc",
+      "ingredient_name_cn": "锌",
+      "ingredient_name_en": "Zinc",
+      "ingredient_category": "矿物质",
+      "health_target_slug": "immune-health",
+      "health_target_name": "免疫",
+      "health_target_compliant_name": "免疫功能相关",
+      "literatures": []
+    },
+    {
+      "id": "153893b9-e2e1-4add-82f0-f745d2a7bf9a",
+      "ingredient_id": "c02e0d15-a6b0-4040-842b-1eeb93dc92d1",
+      "health_target_id": "d7224544-bae6-4af6-93e1-bfd8a9b36b7c",
+      "title": "叶黄素/玉米黄质与黄斑健康",
+      "population": "年龄相关黄斑风险或黄斑色素关注人群",
+      "outcome_metric": "黄斑色素、AMD进展风险",
+      "evidence_strength": "high",
+      "feasibility": "medium",
+      "safety_risk": "low",
+      "public_conclusion": "叶黄素和玉米黄质对特定黄斑风险人群的证据较明确，普通护眼宣传需谨慎。",
+      "professional_conclusion": null,
+      "dose_min": "10.0000",
+      "dose_max": "12.0000",
+      "dose_unit": "mg/day lutein",
+      "dose_note": "常见研究还涉及玉米黄质组合。",
+      "duration_min": 24,
+      "duration_max": 260,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "AMD风险人群或经眼科评估需要营养支持的人群。",
+      "cautions": "已存在眼病症状者需眼科评估。",
+      "common_misunderstanding": null,
+      "compliance_note": "不得宣称治疗眼病。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "lutein-zeaxanthin",
+      "ingredient_name_cn": "叶黄素 / 玉米黄质",
+      "ingredient_name_en": "Lutein and zeaxanthin",
+      "ingredient_category": "类胡萝卜素",
+      "health_target_slug": "eye-health",
+      "health_target_name": "眼健康",
+      "health_target_compliant_name": "眼部健康相关",
+      "literatures": []
+    },
+    {
+      "id": "1d72c607-ef76-45f5-90d3-2d6dcd4e1a29",
+      "ingredient_id": "5aaa2dff-89bd-4e7a-8206-92fcbaefbc9a",
+      "health_target_id": "deb72ae4-5efa-4634-b5ec-a95aa3f3f44c",
+      "title": "叶酸与孕前孕期营养",
+      "population": "备孕和孕早期人群",
+      "outcome_metric": "神经管缺陷风险、叶酸状态",
+      "evidence_strength": "high",
+      "feasibility": "high",
+      "safety_risk": "medium",
+      "public_conclusion": "叶酸在孕前孕早期降低神经管缺陷风险方面证据明确，但不属于普通免疫增强成分。",
+      "professional_conclusion": null,
+      "dose_min": "400.0000",
+      "dose_max": "800.0000",
+      "dose_unit": "mcg/day",
+      "dose_note": "特殊高风险孕妇剂量需医学评估。",
+      "duration_min": 4,
+      "duration_max": 52,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "备孕和孕早期人群。",
+      "cautions": "维生素B12缺乏未排除者不宜长期高剂量。",
+      "common_misunderstanding": null,
+      "compliance_note": "展示时应归入孕期营养或营养素补充，不宣称治疗。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "folic-acid",
+      "ingredient_name_cn": "叶酸",
+      "ingredient_name_en": "Folic acid",
+      "ingredient_category": "维生素",
+      "health_target_slug": "maternal-nutrition",
+      "health_target_name": "备孕/孕期营养",
+      "health_target_compliant_name": "备孕和孕期营养补充相关",
+      "literatures": []
+    },
+    {
+      "id": "ed633388-9f0a-4157-93bf-191b17348a5e",
+      "ingredient_id": "79a13de3-0a56-40d4-b2d9-bf29130ffac5",
+      "health_target_id": "d9f24eed-59e7-432c-906c-6ccb6689742c",
+      "title": "益生菌与肠道症状",
+      "population": "特定腹泻、抗生素相关腹泻或肠道症状人群",
+      "outcome_metric": "腹泻发生率、腹胀、排便",
+      "evidence_strength": "medium",
+      "feasibility": "medium",
+      "safety_risk": "medium",
+      "public_conclusion": "益生菌的证据高度依赖菌株和场景，不能把“益生菌”作为一个整体直接判断有效。",
+      "professional_conclusion": null,
+      "dose_min": null,
+      "dose_max": null,
+      "dose_unit": "CFU/day",
+      "dose_note": "需记录菌株、活菌数和研究场景。",
+      "duration_min": 1,
+      "duration_max": 12,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "抗生素相关腹泻风险、特定肠道症状人群。",
+      "cautions": "免疫严重低下、重症或中心静脉置管人群。",
+      "common_misunderstanding": null,
+      "compliance_note": "不得泛称治疗肠病。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "probiotics",
+      "ingredient_name_cn": "益生菌",
+      "ingredient_name_en": "Probiotics",
+      "ingredient_category": "微生态",
+      "health_target_slug": "gut-health",
+      "health_target_name": "肠道",
+      "health_target_compliant_name": "肠道健康相关",
+      "literatures": []
+    },
+    {
+      "id": "6a4616c2-c7cd-49be-9787-964ebe30d51b",
+      "ingredient_id": "d6581212-0497-4e8d-9e19-9f671193b57a",
+      "health_target_id": "d9f24eed-59e7-432c-906c-6ccb6689742c",
+      "title": "益生元与排便和肠道菌群",
+      "population": "膳食纤维摄入不足或排便不规律人群",
+      "outcome_metric": "排便频率、粪便性状、菌群指标",
+      "evidence_strength": "medium",
+      "feasibility": "high",
+      "safety_risk": "low",
+      "public_conclusion": "益生元对排便和菌群相关指标有一定证据，但胃肠耐受性决定实际可行性。",
+      "professional_conclusion": null,
+      "dose_min": "3.0000",
+      "dose_max": "10.0000",
+      "dose_unit": "g/day",
+      "dose_note": "从低剂量逐步增加通常更易耐受。",
+      "duration_min": 2,
+      "duration_max": 8,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "膳食纤维摄入不足、排便不规律人群。",
+      "cautions": "肠易激综合征、明显腹胀或低FODMAP需求人群。",
+      "common_misunderstanding": null,
+      "compliance_note": "避免宣称治疗便秘或肠病。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "prebiotics",
+      "ingredient_name_cn": "益生元 / 菊粉 / FOS",
+      "ingredient_name_en": "Prebiotics",
+      "ingredient_category": "膳食纤维",
+      "health_target_slug": "gut-health",
+      "health_target_name": "肠道",
+      "health_target_compliant_name": "肠道健康相关",
+      "literatures": []
+    },
+    {
+      "id": "445a85c0-7b8f-4c8d-9026-980473ef70bd",
+      "ingredient_id": "e7f5d4bd-fc72-4f3b-a6bd-8770a3709362",
+      "health_target_id": "a4ce984a-1e26-4034-9148-a74749efbc85",
+      "title": "植物甾醇与 LDL-C",
+      "population": "LDL-C偏高且需膳食管理的人群",
+      "outcome_metric": "LDL-C",
+      "evidence_strength": "high",
+      "feasibility": "high",
+      "safety_risk": "low",
+      "public_conclusion": "植物甾醇对降低 LDL-C 有较明确证据，但不替代整体饮食和医学管理。",
+      "professional_conclusion": null,
+      "dose_min": "1.5000",
+      "dose_max": "3.0000",
+      "dose_unit": "g/day",
+      "dose_note": "通常需每日规律摄入。",
+      "duration_min": 4,
+      "duration_max": 12,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "LDL-C偏高且正在进行膳食管理的人群。",
+      "cautions": "植物甾醇血症、孕哺期或儿童需专业评估。",
+      "common_misunderstanding": null,
+      "compliance_note": "不得宣称治疗高胆固醇血症。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "plant-sterols",
+      "ingredient_name_cn": "植物甾醇",
+      "ingredient_name_en": "Plant sterols",
+      "ingredient_category": "脂质类成分",
+      "health_target_slug": "blood-lipids",
+      "health_target_name": "血脂",
+      "health_target_compliant_name": "血脂健康相关指标",
+      "literatures": []
+    },
+    {
+      "id": "5db3f1bf-c231-4e48-bfce-1ce56bcfb921",
+      "ingredient_id": "f30099e0-cab0-4882-a20a-05a64a341806",
+      "health_target_id": "71cbd240-bc4e-4517-84fe-c670918834e9",
+      "title": "左旋肉碱与体重管理",
+      "population": "体重管理或运动人群",
+      "outcome_metric": "体重、体脂、运动表现",
+      "evidence_strength": "low",
+      "feasibility": "low",
+      "safety_risk": "medium",
+      "public_conclusion": "左旋肉碱用于减脂的实际效果通常有限，不能替代能量控制和运动。",
+      "professional_conclusion": null,
+      "dose_min": "1.0000",
+      "dose_max": "3.0000",
+      "dose_unit": "g/day",
+      "dose_note": "体重管理研究效果大小需谨慎解释。",
+      "duration_min": 8,
+      "duration_max": 24,
+      "duration_unit": "week",
+      "effect_size_summary": null,
+      "applicability": "可作为体重管理证据辨析，不建议作为主要方案。",
+      "cautions": "癫痫史、胃肠敏感或特殊鱼腥味代谢困扰人群。",
+      "common_misunderstanding": null,
+      "compliance_note": "不得宣称燃脂或快速减肥。 当前为 v0.1 草稿，发布前必须完成人工文献复核。",
+      "status": "draft",
+      "version": 1,
+      "ingredient_slug": "l-carnitine",
+      "ingredient_name_cn": "左旋肉碱",
+      "ingredient_name_en": "L-carnitine",
+      "ingredient_category": "氨基酸衍生物",
+      "health_target_slug": "weight-management",
+      "health_target_name": "体重管理",
+      "health_target_compliant_name": "体重管理相关",
+      "literatures": []
+    }
+  ]
+}
